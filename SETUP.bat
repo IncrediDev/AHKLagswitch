@@ -2,7 +2,7 @@
 echo Adding Roblox firewall rule...
 
 REM Command to add the rule (disabled by default)
-netsh advfirewall firewall add rule name="Block-Roblox-Outbound" dir=out action=block program="%USERPROFILE%\AppData\Local\Roblox\Versions\version-347f4ac346734391\RobloxPlayerBeta.exe" enable=no
+netsh advfirewall firewall add rule name="Block-Roblox-Outbound" dir=out action=block program="%USERPROFILE%\AppData\Local\Roblox\Versions\version-c2c9efad42eb44e5\RobloxPlayerBeta.exe" enable=no
 
 REM Check if the previous command was successful
 if %errorlevel% neq 0 (
